@@ -35,7 +35,7 @@ const Cart = () => {
           />
         </div>
 
-        <div className="overflow-scroll no-scrollbar scroll-smooth lg:h-[426px] h-[470px]">
+        <div className="overflow-scroll no-scrollbar scroll-smooth lg:h-[426px] h-3/4">
           {cartItems.length > 0 ? (
             cartItems.map((food) => {
               return (
@@ -58,7 +58,7 @@ const Cart = () => {
         {/* <ItemCard /> */}
 
         <div className="absolute bottom-0 ">
-          <div className="translate-y-1.5 lg:translate-y-0">
+          <div className="">
             <h3 className="select-none font-semibold text-gray-800">
               Items: {totalQty}
             </h3>
