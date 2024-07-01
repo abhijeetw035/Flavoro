@@ -27,7 +27,7 @@ To get started, follow these steps:
    ```sh
    npm run dev
 
-#### Once the development server is running, you can access the application at ***http://localhost:3000***. ####
+#### Once the development server is running, you can access the application at ***http://localhost:5173***. ####
   - **Browse Products:** Explore various food items available for sale.
   - **Add to Cart:** Add your favorite items to the cart.
   - **Checkout:** Proceed to checkout to complete your purchase.
